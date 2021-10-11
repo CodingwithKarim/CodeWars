@@ -1,6 +1,5 @@
 function check(a, x) {
-  if (a.includes(x)){
+  if (a.includes(x)) {
     return true;
-  }
-  else return false;
+  } else return false;
 }

@@ -1,7 +1,6 @@
-function solution(a, b){
-  if (a.length < b.length)
-    return a + b + a;
+function solution(a, b) {
+  if (a.length < b.length) return a + b + a;
   else {
-    return b + a + b
-    }
+    return b + a + b;
   }
+}
