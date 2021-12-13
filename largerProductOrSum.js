@@ -1,8 +1,14 @@
 function sumOrProduct(array, n) {
-    let sum = array.sort((a,b)=> b - a).slice(0, n).reduce((a,b)=> a + b)
-    let product = array.sort((a,b)=> a - b).slice(0, n).reduce((a,b)=> a * b)
-    return sum > product ? 'sum' : sum === product ? 'same' : 'product'
-    }
+  let sum = array
+    .sort((a, b) => b - a)
+    .slice(0, n)
+    .reduce((a, b) => a + b);
+  let product = array
+    .sort((a, b) => a - b)
+    .slice(0, n)
+    .reduce((a, b) => a * b);
+  return sum > product ? "sum" : sum === product ? "same" : "product";
+}
 
 // For this Kata you will be given an array of numbers and another number n. You have to find the sum of the n largest numbers of the array and the product of the n smallest numbers of the array, and compare the two.
 

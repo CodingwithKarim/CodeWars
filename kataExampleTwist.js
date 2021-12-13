@@ -1,6 +1,6 @@
-var websites = []
-for(let i = 0; i < 1000; i++){
-  websites.push('codewars')
+var websites = [];
+for (let i = 0; i < 1000; i++) {
+  websites.push("codewars");
 }
 
 // This is an easy twist to the example kata (provided by Codewars when learning how to create your own kata).

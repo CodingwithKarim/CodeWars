@@ -1,5 +1,5 @@
 function hello(name) {
-    return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : "World"}!`
+    return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : "Hello World"}`
   }
   //tests to see if name paramater returns true, if not it returns `Hello World`
   //if name equates to true, first index of name is capitalized and the string is added to a

@@ -1,8 +1,8 @@
-var number=function(array){
-    return array.map((x,index)=>{
-    return `${index + 1}: ${x}`
-    })
-    }
+var number = function (array) {
+  return array.map((x, index) => {
+    return `${index + 1}: ${x}`;
+  });
+};
 
 // Your team is writing a fancy new text editor and you've been tasked with implementing the line numbering.
 
