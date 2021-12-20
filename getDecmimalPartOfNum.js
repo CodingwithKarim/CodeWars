@@ -6,6 +6,6 @@
 // getDecimal(2.4)  === 0.4
 // getDecimal(-0.2) === 0.2
 
-function getDecimal(n){
-    return n > 0 ? n - Math.floor(n) :  (n + Math.floor(n * -1)) * -1
-    }
+function getDecimal(n) {
+  return n > 0 ? n - Math.floor(n) : (n + Math.floor(n * -1)) * -1;
+}
