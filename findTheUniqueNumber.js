@@ -7,7 +7,6 @@
 // The tests contain some very huge arrays, so think about performance.
 
 function findUniq(arr) {
-  return arr.filter(function (num) {
-    return arr.indexOf(num) === arr.lastIndexOf(num);
-  })[0];
+  let reference = arr[0] === arr[arr.length - 1] ? arr[0] : arr[1];
+  return arr.reduce((a, b) => (a === reference ? b : a));
 }
